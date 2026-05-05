@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Jothi Solar Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Include Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/logo.png" alt="Jothi Solar Solutions Logo" onerror="this.style.display='none'">
+                <span class="fw-bold text-success fs-4">Jothi Solar Solutions</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Contact Us</h1>
+            <p class="lead">Get in touch with our experts for a free consultation and quote.</p>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <section class="py-5 flex-grow-1 bg-light">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Details -->
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="bg-white p-4 rounded shadow-sm h-100">
+                        <h4 class="fw-bold text-primary mb-4">Contact Information</h4>
+                        
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="fs-3 text-success me-3">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Call Us</h6>
+                                <p class="mb-0">9345191814</p>
+                                <p class="mb-0">8903989988</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="fs-3 text-success me-3">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Email Us</h6>
+                                <p class="mb-0"><a href="mailto:jothisolar2026@gmail.com" class="text-decoration-none text-dark">jothisolar2026@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="fs-3 text-success me-3">
+                                <i class="bi bi-clock-fill"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Business Hours</h6>
+                                <p class="mb-0">Monday - Saturday</p>
+                                <p class="mb-0 text-muted small">9:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <h4 class="fw-bold text-primary mb-3">Service Areas</h4>
+                        <p class="small text-muted mb-4">We proudly serve the entire region, providing dedicated installation and support to both urban and rural communities.</p>
+                        
+                        <!-- Map Placeholder -->
+                        <div class="bg-light border rounded d-flex align-items-center justify-content-center" style="height: 200px;">
+                            <div class="text-center text-muted">
+                                <i class="bi bi-geo-alt fs-1"></i>
+                                <p class="mb-0">Interactive Map Location</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-8">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <h4 class="fw-bold text-primary mb-4">Send Us a Message</h4>
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="service" class="form-label">Service of Interest</label>
+                                <select class="form-select" id="service">
+                                    <option value="" disabled selected>Select a service</option>
+                                    <option value="on-grid">Solar On-Grid System</option>
+                                    <option value="off-grid">Solar Off-Grid System</option>
+                                    <option value="water-pump">Solar Water Pump</option>
+                                    <option value="fencing">Solar Fencing</option>
+                                    <option value="other">Other / General Inquiry</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success btn-lg w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 mt-auto">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-white fw-bold">Jothi Solar Solutions</h5>
+                    <p class="small">Leading provider of sustainable solar energy solutions. Powering homes, farms, and businesses with clean energy.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-white fw-bold">Quick Links</h5>
+                    <ul class="list-unstyled small">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-white fw-bold">Contact Us</h5>
+                    <p class="small mb-1">Email: <a href="mailto:jothisolar2026@gmail.com">jothisolar2026@gmail.com</a></p>
+                    <p class="small mb-1">Phone: 9345191814, 8903989988</p>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <div class="text-center small">
+                &copy; <span id="current-year"></span> agsk tech. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
