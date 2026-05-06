@@ -34,6 +34,7 @@
     
 </head>
 <body class="d-flex flex-column min-vh-100">
+    <a href="#main-content" class="visually-hidden-focusable p-3 bg-primary text-white position-absolute z-3">Skip to main content</a>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
@@ -42,7 +43,7 @@
                 <img src="images/logo.png" alt="Jothi Solar Solutions Logo" onerror="this.style.display='none'">
                 <span class="fw-bold text-success fs-4">Jothi Solar Solutions</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -51,13 +52,13 @@
                     <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <main>
+    <main id="main-content">
 
     <!-- Page Header -->
     <header class="bg-dark text-white text-center py-5">
@@ -208,10 +209,10 @@
                     <p class="small mb-1">Email: <a href="mailto:jothisolar2026@gmail.com">jothisolar2026@gmail.com</a></p>
                     <p class="small mb-1">Phone: 9345191814, 8903989988</p>
                     <div class="mt-3 fs-5">
-                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="text-white me-3" title="Facebook"><i class="bi bi-facebook"></i></a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="text-white me-3" title="Twitter"><i class="bi bi-twitter-x"></i></a>
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="text-white me-3" title="Instagram"><i class="bi bi-instagram"></i></a>
-                        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="text-white" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="text-white me-3" title="Facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="text-white me-3" title="Twitter" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="text-white me-3" title="Instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="text-white" title="LinkedIn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
             </div>
